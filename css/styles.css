@@ -91,7 +91,7 @@
     text-transform: uppercase;
 }
 #what-we-do{
-    height: 50vh;
+    height: 80vh;
 }
 #col1{
     text-align: center;
@@ -115,7 +115,7 @@
 }
 .portfolio-head{
     position: absolute;
-    top: 245%;
+    top: 275%;
     left: 45%;
 }
 #row2{
@@ -165,5 +165,17 @@ textarea{
 /********************SOCIAL MEDIA ICONS SECTION********************************************/
 #social-icon{
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 10px;
+}
+#social-icon .container .row .col{
+    display: block;
+}
+.tagline{
+    padding-top: 30px;
+    font-family: 'Roboto',sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.tagline span{
+    display: block;
 }
