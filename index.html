@@ -14,7 +14,7 @@
 </head>
 <body>
     <section id="landing-page">
-        <div class="container">
+        <div class="container normargin">
             <div class="logo">
                 <img src="css/images/logo/logo.png" alt="">
                 <div class="welcome-head">
@@ -30,7 +30,7 @@
         </div>
     </section>
     <section id="about-us">
-        <div class="container">
+        <div class="container normargin">
             <div class="about">
                 <h2>About Us</h2>
                 <p class="para1">
@@ -49,7 +49,7 @@
         </div>
     </section>
     <section id="services">
-        <div class="container">
+        <div class="container normargin">
             <div class="services">
                 <div class="services-head">
                 <h2 class="title">Services</h2>
@@ -66,41 +66,84 @@
             </div>
         </div>
     </section>
-    <section class="what-we-do">
-        <div class="container">
+    <section id="what-we-do">
+        <div class="container normargin">
             <div class="what-we-do-head">
                 <h2>What we do</h2>
             </div>
-            <div class="icon">
-            <div class="icon1">
-                <img src="css/images/services_icons/design_icon.png" alt="">
-                <span class="caption"><p>design </p></span></div>
-            <div class="icon2">
-            <img src="css/images/services_icons/dev_icon.png" alt="">
-                <span class="caption"><p>Development</p></span></div>  
-            <div class="icon3">
-            <img src="css/images/services_icons/product_icon.png" alt="">
-                <span class="caption"><p>product Management</p></span>  </div>
-        </div>
+            <div class="row">
+            <div id="col1" class="col">
+                <img src="css/images/services_icons/design_icon.png" class="img-fluid">
+                <div class="caption">Design</div>
+            </div>
+            <div id="col2" class="col">
+                <img src="css/images/services_icons/dev_icon.png" class="img-fluid">
+                <div class="caption">Development</div>
+            </div>
+            <div id="col3" class=" col">
+                <img src="css/images/services_icons/product_icon.png" class="img-fluid">
+                <div class="caption">Product management</div>
+            </div>
+            </div>
         </div>
     </section>
     <section id="portfolio">
-            <div class="container">
+        <div class="container normargin">
                 <div class="portfolio-head">
-                    <h2>Portfolio</h2>
-                </div>
-            <div class="img">
-                <img src="css/images/portfolio/work4.jpg" alt="" height="220" width="300">
-                <img src="css/images/portfolio/work3.jpg" alt="" height="220" width="300">
-                <img src="css/images/portfolio/work2.jpg" alt="" height="220" width="300">
-                <img src="css/images/portfolio/work5.jpg" alt="" height="220" width="300">
-                <img src="css/images/portfolio/work6.jpg" alt="" height="220" width="300">
-                <img src="css/images/portfolio/work7.jpg" alt="" height="220" width="300">
-                <span class="root1"><img src="css/images/portfolio/work1.jpg" alt="" height="220" width="250"></span>
-                <span class="root2"><img src="css/images/portfolio/work8.jpg" alt="" height="220" width="250"></span>
-        </div>
-    </section>
+                        <h2>Portfolio</h2>
+                    </div>
+        <div class="row">
+            <div class="col">
+                <img src="css/images/portfolio/work1.jpg" class="img-fluid">
+            </div>
+            <div class="col">
+                <img src="css/images/portfolio/work2.jpg" class="img-fluid">
+               
+            </div>
+            <div class=" col">
+                <img src="css/images/portfolio/work3.jpg" class="img-fluid">
+            </div>
+            <div class=" col">
+                <img src="css/images/portfolio/work4.jpg" class="img-fluid">
             </div>
         </div>
+            <div id="row2" class="row">
+                <div class=" col">
+                <img src="css/images/portfolio/work5.jpg" class="img-fluid">
+            </div>
+            <div class=" col">
+                <img src="css/images/portfolio/work6.jpg" class="img-fluid">
+            </div>
+            <div class=" col">
+                <img src="css/images/portfolio/work7.jpg" class="img-fluid">
+            </div>
+            <div class=" col">
+                <img src="css/images/portfolio/work8.jpg" class="img-fluid">
+            </div>
+            </div>  
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container normargin">
+            <div class="contact-head">
+                <h2>Contact us</h2>
+            </div>
+            <div class="form">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Name...">
+                    </div>
+                    <div class="col">
+                        <input type="email" placeholder="Email...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="textarea" class="col">
+                        <textarea name=""  cols="110" rows="8" placeholder="Your message here..."></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

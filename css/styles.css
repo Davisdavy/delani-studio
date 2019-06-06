@@ -12,6 +12,7 @@
 }
 .container{
     width: 100%;
+    
 }
 
 #landing-page{
@@ -82,50 +83,77 @@
 .services .title .details1,.details2{
     padding-bottom: 120px;
 }
-
+/*******************************************************************
+/********************WHAT WE DO SECTION********************************************/
 .what-we-do-head{
     padding-top: 30px;
     text-align: center;
     text-transform: uppercase;
 }
-.icon{
-    padding-top: 10px;
+#what-we-do{
+    height: 50vh;
 }
-.icon3{
-    position: absolute;
-    left: 75%;
+#col1{
+    text-align: center;
 }
-.icon2{
-    position: absolute;
-    left: 45%;
+#col2{
+    text-align: center;
 }
-.icon1{
-    position: absolute;
-    left: 10%;
+#col3{
+    text-align: center;
 }
 .caption{
-    display: block;
+    font-family: 'Roboto',sans-serif;
     font-size: 20px;
     text-transform: uppercase;
-    font-family: "Roboto",sans-serif;
 }
+/*******************************************************************
+/********************PORTFOLIO SECTION********************************************/
 #portfolio{
-    position: absolute;
-    top: 250%;
-}
-.img img{
-    display: inline-block;
-    padding-bottom: 25px;
-    padding-left: 40px;
-}
-.root1{
-    position: absolute;
-    top: 9.5%;
-}
-.root2{
-    position: absolute;
+    padding-bottom: 50px;
+    
 }
 .portfolio-head{
+    position: absolute;
+    top: 245%;
+    left: 45%;
+}
+#row2{
+    padding-top: 20px;
+}
+/*******************************************************************
+/********************CONTACT US SECTION********************************************/
+#contact{
+    background: url("images/background/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.form{
     text-align: center;
+    padding-top: 40px;
+}
+.contact-head{
+    text-align: center;
+    padding-top: 50px;
     text-transform: uppercase;
+    font-size: lighter;
+    color: #fff;
+}
+input{
+    width: 480px;
+    font-weight: 30;
+    background: none;
+    border: 1.5px solid #fff;
+    color: #fff;
+}
+#textarea{
+    padding-top: 30px;
+    font-weight: 300;
+    
+}
+textarea{
+    background: none;
+    border: 1.5px solid #fff;
+    color: #fff;
 }
