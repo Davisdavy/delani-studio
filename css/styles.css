@@ -140,20 +140,30 @@
     font-size: lighter;
     color: #fff;
 }
+::placeholder{
+    color: #fff;
+    padding-left: 20px;
+}
 input{
-    width: 480px;
-    font-weight: 30;
+    width: 490px;
+    font-weight: bolder;
     background: none;
-    border: 1.5px solid #fff;
+    border: 1px solid #fff;
     color: #fff;
 }
 #textarea{
     padding-top: 30px;
-    font-weight: 300;
-    
 }
 textarea{
     background: none;
-    border: 1.5px solid #fff;
+    border: 1px solid #fff;
+    font-weight: 300;
+    font-weight: bolder;
     color: #fff;
+}
+/*******************************************************************
+/********************SOCIAL MEDIA ICONS SECTION********************************************/
+#social-icon{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
