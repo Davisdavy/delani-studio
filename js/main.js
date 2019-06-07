@@ -1,12 +1,17 @@
 
 $(document).ready(function () {
-    $(".overlay").mouseover(function(){
+    $("div.overlay").hover(function(){
         $(this).css({
-            "opacity":"5",
+            "opacity":"1",
             "transition": "2s",
             "cursor": "pointer"
         });
-        
+    },
+    function () { 
+        $(this).css({
+                "opacity": "0"
+            });
+        }
+    );
 });
-    
-});
+
