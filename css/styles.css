@@ -10,15 +10,15 @@
     padding: 0;
     font-family: 'Roboto', sans-serif; 
 }
-.container{
-    width: 100%;
-    
-}
 
 #landing-page{
     background-image: url("images/background/h_img.jpg");
     background-size: cover;
     background-position: center;
+    width: 100%;
+}
+#landing-page .welcome-head h1{
+    font-size: 50px;
 }
 .logo{
     text-align: center;
@@ -27,14 +27,21 @@
 .welcome-head{
     text-align: center;
     color: #fff;
-    padding-top: 20px;
+    padding-top: 50px;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 .welcome-head span{
+    padding-bottom: 20px;
     display: block;
+}
+.tag{
+    color: #fff;
+    text-transform: uppercase;
 }
 .tagline{
     text-align: center;
+
 }
 .mouse-up-down{
     padding-top: 150px;
@@ -45,7 +52,9 @@
 
 /***************************About section*******/
 /**************************************************/
-
+#about-us{
+    width: 100%;
+}
 .about{
     padding-top: 40px;
     padding-bottom: 48px;
@@ -75,9 +84,7 @@
     padding-top: 0px;
 }
 .services .title{
-    position: absolute;
-    top: 148%;
-    left: 45%;
+    text-align: center;
     text-transform: uppercase;
 }
 .services .title .details1,.details2{
@@ -91,7 +98,8 @@
     text-transform: uppercase;
 }
 #what-we-do{
-    height: 80vh;
+    height: 60vh;
+    width: 100%;
 }
 #col1{
     text-align: center;
@@ -111,12 +119,10 @@
 /********************PORTFOLIO SECTION********************************************/
 #portfolio{
     padding-bottom: 50px;
-    
+    width: 100%;
 }
 .portfolio-head{
-    position: absolute;
-    top: 275%;
-    left: 45%;
+    text-align: center;
 }
 #row2{
     padding-top: 20px;
@@ -128,6 +134,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 70vh;
+    width: 100%;
 }
 .form{
     text-align: center;
@@ -157,7 +164,6 @@ input{
 textarea{
     background: none;
     border: 1px solid #fff;
-    font-weight: 300;
     font-weight: bolder;
     color: #fff;
 }
@@ -166,6 +172,7 @@ textarea{
 #social-icon{
     padding-top: 80px;
     padding-bottom: 10px;
+    width: 100%;
 }
 #social-icon .container .row .col{
     display: block;
@@ -178,4 +185,9 @@ textarea{
 }
 .tagline span{
     display: block;
+}
+
+@media screen and (min-width: 1096px){
+
+    
 }
