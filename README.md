@@ -3,10 +3,10 @@
 #### By Davis
 
 ## Desktop View Resolution
-   <video src="css/images/vid.webm">
-
-   </video>
-## Description
+   <video width="320" height="240" controls>
+  <source src="vid.webm" type="video/mp4">
+</video>
+### Description
 This website cases what the artist has done (projects) and an about him page where you could
 contact him through a direct web message or social media way.
 It is only a fictional but functional website.
