@@ -95,6 +95,15 @@ html,body{
 }
 /*******************************************************************
 /********************WHAT WE DO SECTION********************************************/
+.descript-hide p{
+    display: none;
+}
+.descript-hide2 p{
+    display: none;
+}
+.descript-hide3 p{
+    display: none;
+}
 .what-we-do-head{
     padding-top: 30px;
     text-align: center;
