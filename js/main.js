@@ -5,6 +5,7 @@ $(document).ready(function () {
         $(".descript-hide p").toggle();
         $(".caption").css({
             "font-weight": "bold",
+            "transition": "1s",
             "cursor": "pointer"
         })
     });
@@ -18,6 +19,7 @@ $(document).ready(function () {
         $(".descript-hide2 p").toggle();
         $(".caption").css({
             "font-weight": "bold",
+            "transition": "1s",
             "cursor": "pointer"
         })
     });
@@ -33,6 +35,7 @@ $(document).ready(function () {
         $(".descript-hide3 p").toggle();
         $(".caption").css({
             "font-weight": "bold",
+            "transition": "1s",
             "cursor": "pointer"
         })
     });
