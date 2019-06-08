@@ -59,3 +59,15 @@ $(document).ready(function () {
 
     
 });
+
+
+
+/***********************Message received JS function**** */
+
+
+function returnValue()
+{
+    var name = document.getElementById("name").value;
+  alert(name + ' message recieved! Thank you For contacting us!');
+  return false;
+}
