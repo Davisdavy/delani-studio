@@ -1,18 +1,22 @@
 # DELANI STUDIO
 #### Fictional Studio Website, Sat, 8 June.
 #### By Davis
+
+## Desktop View Resolution
+   <video src="css/images/vid.webm">
+
+   </video>
 ## Description
 This website cases what the artist has done (projects) and an about him page where you could
 contact him through a direct web message or social media way.
 It is only a fictional but functional website.
 
-##Desktop View Resolution
-![](css/images/vid.webm)
+
 ## Setup/Installation Requirements
  To set up, click the ![]()link and redirected to a working github page website.
 * Chrome/safari/IE
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+The web functionality is best in an internet connected. 
 ## Technologies Used
 {Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
 ## Support and contact details
@@ -20,3 +24,4 @@ It is only a fictional but functional website.
 ### License
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
 Copyright (c) {year} **{List of contributors or company name}**
+
