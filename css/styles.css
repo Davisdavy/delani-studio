@@ -210,6 +210,13 @@ button{
 .icons{
     text-align: center;
 }
+
+.icons img:hover  {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+  transition: 1s;
+}
 .tagline{
     padding-top: 30px;
     font-family: 'Roboto',sans-serif;
