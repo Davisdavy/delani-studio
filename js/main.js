@@ -1,21 +1,46 @@
 
 $(document).ready(function () {
     $(".hidden").click(function (){
-        $(".descript-hide").toggle();
         $(".hidden").toggle();
+        $(".descript-hide p").toggle();
+        $(".caption").css({
+            "font-weight": "bold",
+            "cursor": "pointer"
+        })
+    });
+    $(".descript-hide p").click(function (){
+        $(".hidden").show();
+        $(".descript-hide p").hide();
     });
 
     $(".hidden2").click(function (){
-        $(".descript-hide2").toggle();
         $(".hidden2").toggle();
-        
+        $(".descript-hide2 p").toggle();
+        $(".caption").css({
+            "font-weight": "bold",
+            "cursor": "pointer"
+        })
+    });
+    
+
+    $(".descript-hide2 p").click(function (){
+        $(".hidden2").show();
+        $(".descript-hide2 p").hide();
     });
 
     $(".hidden3").click(function (){
-        $(".descript-hide3").toggle();
         $(".hidden3").toggle();
+        $(".descript-hide3 p").toggle();
+        $(".caption").css({
+            "font-weight": "bold",
+            "cursor": "pointer"
+        })
     });
 
+    $(".descript-hide3 p").click(function (){
+        $(".hidden3").show();
+        $(".descript-hide3 p").hide();
+    });
 
 
     $("div.overlay").hover(function(){
@@ -31,5 +56,18 @@ $(document).ready(function () {
             });
         }
     );
-});
 
+    $('.icons').hover(function() {
+        $(this).css("cursor", "pointer");
+        $(this).toggle({
+          effect: "scale",
+          percent: "90%"
+        },200);
+    }, function() {
+         $(this).toggle({
+           effect: "scale",
+           percent: "80%"
+         },200);
+
+    });
+});
