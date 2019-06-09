@@ -38,6 +38,10 @@ The web functionality is best in an internet connected.
     Styled the sizings, postionings and altered some default bootstrap
   #### Bootstrap
     This framework was strategically used to style the button.rows and columns.
+  #### Javascript
+    The alert pop up after submitting a message form was created by this language
+  #### Jquery
+    This library  handled the hover and toggle events.
 ## Support and contact details
   Want to get in touch?
   Email me ![](davisdavy96@gmail.com)
