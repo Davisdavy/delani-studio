@@ -44,9 +44,9 @@ The web functionality is best in an internet connected.
     This library  handled the hover and toggle events.
 ## Support and contact details
   Want to get in touch?
-  Email me ![](davisdavy96@gmail.com)
-  slack Davis W
-  Github Davisdavy
+  * Email me davisdavy96@gmail.com
+  * slack @moringaschool (Davis W)
+  * Github Davisdavy
 ### License
 MIT License
 
