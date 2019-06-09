@@ -3,10 +3,7 @@
 #### By Davis
 
 ## Video Demo
-<a href="https://www.youtube.com/embed/wkI0w_4PdFs" target="_blank">
-![](https://www.youtube.com/embed/wkI0w_4PdFs")
-</a>
-
+[![delani studio](http://img.youtube.com/vi/wkI0w_4PdFs/0.jpg)](http://www.youtube.com/watch?v=wkI0w_4PdFs "Delani studio")
 ### Description
 This website cases what the artist has done (projects) and an about him page where you could
 contact him through a direct web message or social media ways.
