@@ -20,11 +20,11 @@ contact him through a direct web message or social media ways.
 It is only a fictional but functional website.
 
 ### Mobile Resolution veiw
-![](css/images/1.png)
+![](css/images/1.png)![](css/images/5.png)
 ![](css/images/2.png)
-![](css/images/3.png)
-![](css/images/4.png)
-![](css/images/5.png)
+![](css/images/3.png)![](css/images/4.png)
+
+
 
 ## Setup/Installation Requirements
  To set up, click the ![]()link and redirected to a working github page website.
