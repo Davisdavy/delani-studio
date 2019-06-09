@@ -3,7 +3,8 @@
 #### By Davis
 
 ## Video Demo
-<a href="https://www.youtube.com/embed/wkI0w_4PdFs" target="_blank"><img src="css/images/backgound/h_img.jpg" alt=" demo link to youtube" width="300" height="200"/></a>
+<a href="https://www.youtube.com/embed/wkI0w_4PdFs" target="_blank">
+![](https://www.youtube.com/embed/wkI0w_4PdFs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture)</a>
 
 ### Description
 This website cases what the artist has done (projects) and an about him page where you could
