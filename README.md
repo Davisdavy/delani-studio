@@ -3,11 +3,7 @@
 #### By Davis
 
 ## Video Demo
-<video width="320" height="200" controls preload> 
-    <source src="vid.webm">
-    
-</video>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wkI0w_4PdFs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ### Description
 This website cases what the artist has done (projects) and an about him page where you could
 contact him through a direct web message or social media ways.
