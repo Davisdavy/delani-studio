@@ -2,13 +2,15 @@
 #### Fictional Studio Website, Sat, 8 June.
 #### By Davis
 
-## Desktop View Resolution
-   <video width="320" height="240" controls>
-  <source src="vid.webm" type="video/mp4">
+## Video Demo
+<video width="320" height="200" controls preload> 
+    <source src="vid.webm">
+    
 </video>
+
 ### Description
 This website cases what the artist has done (projects) and an about him page where you could
-contact him through a direct web message or social media way.
+contact him through a direct web message or social media ways.
 It is only a fictional but functional website.
 
 
