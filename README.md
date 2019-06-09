@@ -3,9 +3,7 @@
 #### By Davis
 
 ## Video Demo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wkI0w_4PdFs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<a href="https://www.youtube.com/embed/wkI0w_4PdFs" target="_blank"><img src="images/backgound.jpg" 
-alt=" demo link to youtube" width="300" height="200"/></a>
+<a href="https://www.youtube.com/embed/wkI0w_4PdFs" target="_blank"><img src="css/images/backgound.jpg" alt=" demo link to youtube" width="300" height="200"/></a>
 
 ### Description
 This website cases what the artist has done (projects) and an about him page where you could
